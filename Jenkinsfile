@@ -11,7 +11,7 @@ pipeline {
             }
             post {
                 always {
-                    bat 'subst p: /d > nul'
+                    bat 'subst p: /d > nul || exit /b 0'
                 }
             }
         }
