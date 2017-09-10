@@ -17,6 +17,22 @@ class ACE_ServerSettings {
         force = 1;
     };
 
+    class ace_common_checkPBOsAction {
+        value = 0;
+        typeName = "SCALAR";
+        force = 1;
+    };
+    class ace_common_checkPBOsCheckAll {
+        value = 1;
+        typeName = "BOOL";
+        force = 1;
+    };
+    class ace_common_checkPBOsWhitelist {
+        value = "[]";
+        typeName = "STRING";
+        force = 1;
+    };
+
     class ace_cookoff_enable {
         value = 0;
         typeName = "BOOL";
