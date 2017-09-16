@@ -28,7 +28,7 @@ class ACE_ServerSettings {
         force = 1;
     };
     class ace_common_checkPBOsWhitelist {
-        value = "[]";
+        value = "[""anrop_aar"",""anrop_ace_server"",""xea_testextension""]";
         typeName = "STRING";
         force = 1;
     };
