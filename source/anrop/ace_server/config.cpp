@@ -10,6 +10,8 @@ class CfgPatches {
     };
 };
 
+#include "whitelist_mods.hpp"
+
 class ACE_ServerSettings {
     class ace_advanced_fatigue_enabled {
         value = 0;
@@ -28,7 +30,7 @@ class ACE_ServerSettings {
         force = 1;
     };
     class ace_common_checkPBOsWhitelist {
-        value = "[""anrop_aar"",""anrop_ace_server"",""xea_testextension""]";
+        value = WHITELIST_MODS;
         typeName = "STRING";
         force = 1;
     };
