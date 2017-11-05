@@ -75,6 +75,12 @@ class ACE_ServerSettings {
         force = 1;
     };
 
+    class ace_medical_menu_allow {
+        value = 1;
+        typeName = "BOOL";
+        force = 1;
+    };
+
     class ace_overheating_unJamOnreload {
         value = 1;
         typeName = "BOOL";
