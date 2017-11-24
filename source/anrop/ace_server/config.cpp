@@ -4,7 +4,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1.0;
-        requiredAddons[] = {"ace_common"};
+        requiredAddons[] = {};
         author = "Anrop";
         url = "https://www.anrop.se";
     };
