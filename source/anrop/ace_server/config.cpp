@@ -77,7 +77,7 @@ class ACE_ServerSettings {
 
     class ace_medical_menu_allow {
         value = 1;
-        typeName = "BOOL";
+        typeName = "SCALAR";
         force = 1;
     };
 
