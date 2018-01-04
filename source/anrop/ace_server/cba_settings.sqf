@@ -23,3 +23,5 @@ force ace_captives_requireSurrender = 0;
 force ace_respawn_savePreDeathGear = true;
 
 force ace_respawn_removeDeadBodiesDisconnected = false;
+
+force ace_weather_enabled = false;
