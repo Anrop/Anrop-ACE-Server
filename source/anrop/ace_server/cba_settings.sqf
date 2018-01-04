@@ -10,6 +10,8 @@ force ace_finger_enabled = true;
 
 force ace_gforces_enabledFor = 0;
 
+force ace_goggles_effects = 0;
+
 force ace_hearing_enableCombatDeafness = false;
 
 force ace_medical_moveUnitsFromGroupOnUnconscious = true;
